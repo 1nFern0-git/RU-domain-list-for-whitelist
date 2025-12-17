@@ -10,4 +10,6 @@
 
 Готовый БС для Xray
 
-- **dlc.dat**：[https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat](https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat)
+- **geosite.dat**：[https://github.com/kirilllavrov/RU-domain-list-for-whitelist/releases/latest/download/dlc.dat](https://github.com/kirilllavrov/RU-domain-list-for-whitelist/releases/latest/download/dlc.dat)
+
+- **geoip.dat**：[https://github.com/kirilllavrov/RU-domain-list-for-whitelist/releases/latest/download/geoip.dat](https://github.com/kirilllavrov/RU-domain-list-for-whitelist/releases/latest/download/geoip.dat)
