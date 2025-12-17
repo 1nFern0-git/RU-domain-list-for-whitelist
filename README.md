@@ -8,6 +8,6 @@
 
 ## Ссылки для скачивания
 
-Готовый БС 
+Готовый БС для Xray
 
 - **dlc.dat**：[https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat](https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat)
