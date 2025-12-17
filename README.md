@@ -8,7 +8,7 @@
 
 ## Ссылки для скачивания
 
-Готовый БС для Xray
+Готовый работающий БС для Xray
 
 - **geosite.dat**：[https://github.com/kirilllavrov/RU-domain-list-for-whitelist/releases/latest/download/dlc.dat](https://github.com/kirilllavrov/RU-domain-list-for-whitelist/releases/latest/download/dlc.dat)
 
