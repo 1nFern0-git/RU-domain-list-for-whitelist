@@ -12,7 +12,7 @@
     "Geositeurl": "https://github.com/kirilllavrov/RU-domain-list-for-whitelist/releases/latest/download/dlc.dat",
     "LastUpdated": "",
     "DnsHosts": {},
-    "RouteOrder": "block-proxy-direct",
+    "RouteOrder": "block-direct-proxy",
     "DirectSites": [
         "geosite:private",
         "geosite:whitelist-ru"
