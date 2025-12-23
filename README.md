@@ -1,39 +1,42 @@
-# Списки доменов и ip адресов в зоне Ru
+# Белые списки доменов и IP-адресов в зоне .ru
 
-Проект собирает домены и ip адреса в зоне RU для создания белых списков мобильных операторов России
+Проект собирает домены и IP-адреса в зоне .ru для создания белых списков мобильных операторов России.
 
-## Цель этого проекта
+## Цель проекта
 
-Сбор проверка доменов и ip адресов, применяемых операторами мобильной связи при частичном ограничении доступа в интернет, "Белые списки". Собранные данные можно использовать для построения правил маршрутизации для Xray ядра.
+Сбор и проверка доменов и IP-адресов, применяемых операторами мобильной связи при частичном ограничении доступа в интернет («Белые списки»). Собранные данные можно использовать для построения правил маршрутизации для ядра Xray.
 
 ## Структура проекта
 
-Для удобства работы с данными "Белые списки" разделены на списки IP адресов - /IPs, и списки доменов - /domains
+Для удобства работы с данными «Белые списки» разделены на:
 
-## Самостоятельная сборка файлов geosite.dat geoip.dat для маршрутизации
+- Списки IP-адресов — `/IPs`
+- Списки доменов — `/domains`
 
-Инструмент и мануал по сборке geosite.dat - [https://github.com/v2fly/domain-list-community](https://github.com/v2fly/domain-list-community)
+## Самостоятельная сборка файлов `geosite.dat` и `geoip.dat` для маршрутизации
 
-Инструмент и мануал по сборке geoip.dat - [hhttps://github.com/v2fly/geoip](https://github.com/v2fly/geoip)
+Инструменты и инструкции по сборке:
 
-## Ссылки для скачивания
+- **geosite.dat**: [https://github.com/v2fly/domain-list-community](https://github.com/v2fly/domain-list-community)
+- **geoip.dat**: [https://github.com/v2fly/geoip](https://github.com/v2fly/geoip)
 
-Готовый работающий БС для Xray
+## Ссылки для скачивания готовых файлов
 
-- **geosite.dat**：[https://github.com/kirilllavrov/RU-domain-list-for-whitelist/releases/latest/download/dlc.dat](https://github.com/kirilllavrov/RU-domain-list-for-whitelist/releases/latest/download/dlc.dat)
+Готовые рабочие файлы для Xray:
 
-- **geoip.dat**：[https://github.com/kirilllavrov/RU-domain-list-for-whitelist/releases/latest/download/geoip.dat](https://github.com/kirilllavrov/RU-domain-list-for-whitelist/releases/latest/download/geoip.dat)
+- **geosite.dat**: [https://github.com/kirilllavrov/RU-domain-list-for-whitelist/releases/latest/download/dlc.dat](https://github.com/kirilllavrov/RU-domain-list-for-whitelist/releases/latest/download/dlc.dat)
+- **geoip.dat**: [https://github.com/kirilllavrov/RU-domain-list-for-whitelist/releases/latest/download/geoip.dat](https://github.com/kirilllavrov/RU-domain-list-for-whitelist/releases/latest/download/geoip.dat)
 
-## Категории в geosite.dat geoip.dat
+## Категории в `geosite.dat` и `geoip.dat`
 
-Для удобства построения маршрутизации нужно применять следующие категории:
+Для удобства настройки маршрутизации используйте следующие категории:
 
-**geosite.dat** содержит категории "category-ru", "category-ads-all" и "private":
+**В `geosite.dat`:**
 
-- **category-ru**: содержит известные домены, включенные в "Белые списки"
+- **category-ru**: известные домены, включённые в «Белые списки»
+- **category-ads-all**: рекламные домены
+- **private**: приватные домены
 
-- **category-ads-all**: содержит рекламмные домены
+**В `geoip.dat`:**
 
-- **private**: содержит приватные домены
-
-**geoip.dat** содержит категорию "whitelist" - все известные IP адреса, включенные в "Белые списки".
+- **whitelist**: все известные IP-адреса, включённые в «Белые списки» операторов.
