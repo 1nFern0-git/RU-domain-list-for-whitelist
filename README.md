@@ -47,4 +47,4 @@
 - **whitelist**: все известные и проверенные подсети (IP-адреса), включённые в «Белые списки» операторов
 - **ru**: это просто "довесок" для увеличения веса файла, с целью обхода бага в Happ на десктопах
 
-**Пример использования категорий** при построении правил маршрутизации можно посмотреть тут - [ROUTING_HAPP](https://github.com/kirilllavrov/RU-domain-list-for-whitelist/blob/main/ROUTING_HAPP)
+**Пример использования категорий** при построении правил маршрутизации можно посмотреть тут - [JSON_example](https://github.com/kirilllavrov/RU-domain-list-for-whitelist/blob/main/JSON_example)
