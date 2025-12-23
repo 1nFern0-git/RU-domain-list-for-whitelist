@@ -10,13 +10,13 @@
 
 Для удобства работы с данными «Белые списки» разделены на:
 
-- Списки IP-адресов — `/IPs`
-- Списки доменов — `/domains`
+- Списки подсетей, разбитые по категориям — `/IPs`
+- Списки проверенных IP-адресов — `/IPs/сhecked`
+- Списки доменов, разбитые по категориям — `/domains`
 
 ## Актуальные данные
 
-Проверенные на работоспособность у всех операторов домены смотри в [`/domains/ru/category-ru`](https://github.com/kirilllavrov/RU-domain-list-for-whitelist/blob/main/domains/ru/category-ru)
-
+Проверенные на работоспособность у всех операторов категории (домены) смотри в [`/domains/ru/category-ru`](https://github.com/kirilllavrov/RU-domain-list-for-whitelist/blob/main/domains/ru/category-ru)
 
 ## Самостоятельная сборка файлов `geosite.dat` и `geoip.dat` для маршрутизации
 
@@ -32,7 +32,7 @@
 - **geosite.dat**: [https://github.com/kirilllavrov/RU-domain-list-for-whitelist/releases/latest/download/dlc.dat](https://github.com/kirilllavrov/RU-domain-list-for-whitelist/releases/latest/download/dlc.dat)
 - **geoip.dat**: [https://github.com/kirilllavrov/RU-domain-list-for-whitelist/releases/latest/download/geoip.dat](https://github.com/kirilllavrov/RU-domain-list-for-whitelist/releases/latest/download/geoip.dat)
 
-## Категории в `geosite.dat` и `geoip.dat`
+## Категории в наших `geosite.dat` и `geoip.dat`
 
 Для удобства настройки маршрутизации используйте следующие категории:
 
@@ -44,4 +44,4 @@
 
 **В `geoip.dat`:**
 
-- **whitelist**: все известные и проверенные IP-адреса, включённые в «Белые списки» операторов.
+- **whitelist**: все известные и проверенные подсети (IP-адреса), включённые в «Белые списки» операторов.
