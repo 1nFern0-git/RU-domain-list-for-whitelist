@@ -13,7 +13,10 @@
 - Списки IP-адресов — `/IPs`
 - Списки доменов — `/domains`
 
-### Актуальные и работающие у всех операторов домены смотри в [`/domains/ru/category-ru`](https://github.com/kirilllavrov/RU-domain-list-for-whitelist/blob/main/domains/ru/category-ru)
+## Актуальные данные
+
+Проверенные на работоспособность у всех операторов домены смотри в [`/domains/ru/category-ru`](https://github.com/kirilllavrov/RU-domain-list-for-whitelist/blob/main/domains/ru/category-ru)
+
 
 ## Самостоятельная сборка файлов `geosite.dat` и `geoip.dat` для маршрутизации
 
