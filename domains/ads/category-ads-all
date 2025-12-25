@@ -23,6 +23,17 @@ spotxchange.com @ads
 unimhk.com @ads
 upapi.net @ads
 
-include:category-ads
 include:AdguardFilterDNS
 include:PeterLoweFilter
+include:adobe-ads
+include:alibaba-ads
+include:amazon-ads
+include:apple-ads
+include:baidu-ads
+include:facebook-ads
+include:github-ads
+include:google-ads
+include:microsoft-ads
+include:whatsapp-ads
+include:xiaomi-ads
+
