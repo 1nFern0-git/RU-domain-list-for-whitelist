@@ -1,0 +1,31 @@
+{
+    "Name": "LTE-БС",
+    "GlobalProxy": "true",
+    "UseChunkFiles": "true",
+    "RemoteDNSType": "DoH",
+    "RemoteDNSDomain": "https://cloudflare-dns.com/dns-query",
+    "RemoteDNSIP": "1.1.1.1",
+    "DomesticDNSType": "DoH",
+    "DomesticDNSDomain": "https://common.dot.dns.yandex.net/dns-query",
+    "DomesticDNSIP": "77.88.8.8",
+    "Geoipurl": "https://github.com/kirilllavrov/RU-domain-list-for-whitelist/releases/latest/download/geoip.dat",
+    "Geositeurl": "https://github.com/kirilllavrov/RU-domain-list-for-whitelist/releases/latest/download/dlc.dat",
+    "LastUpdated": "1766348520",
+    "DnsHosts": {},
+    "RouteOrder": "block-direct-proxy",
+    "DirectSites": [
+        "geosite:private",
+        "geosite:category-ru"
+    ],
+    "DirectIp": [
+        "geoip:whitelist"
+    ],
+    "ProxySites": [],
+    "ProxyIp": [],
+    "BlockSites": [
+        "geosite:category-ads-all"
+    ],
+    "BlockIp": [],
+    "DomainStrategy": "IPIfNonMatch",
+    "FakeDNS": "false"
+}
