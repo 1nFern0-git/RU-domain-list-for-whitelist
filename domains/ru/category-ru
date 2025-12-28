@@ -1,3 +1,4 @@
+include:1cloud
 include:2gis
 include:alfabank
 include:autoru
@@ -6,6 +7,7 @@ include:beeline
 include:gov
 include:gpmdi
 include:dzen
+include:fastvps
 include:er
 include:krd
 include:kremlin
@@ -19,8 +21,10 @@ include:ozon
 include:rambler
 include:rt
 include:rutube
+include:ruvds
 include:rzd
 include:t2
+include:timeweb
 include:vk
 include:wb
 include:x5
