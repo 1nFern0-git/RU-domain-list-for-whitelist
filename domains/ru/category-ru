@@ -4,8 +4,10 @@ include:autoru
 include:avito
 include:beeline
 include:gov
+include:gpmdi
 include:dzen
 include:er
+include:krd
 include:kremlin
 include:lentaru
 include:mailru
@@ -14,6 +16,7 @@ include:megafon
 include:mts
 include:ok
 include:ozon
+include:rambler.ru
 include:rt
 include:rutube
 include:rzd
