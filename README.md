@@ -14,9 +14,11 @@
 - Списки проверенных IP-адресов — `/IPсhecked`
 - Списки доменов, разбитые по категориям — `/domains`
 
-## Актуальные данные
+## Актуальные (проверенные) данные
 
 Проверенные на работоспособность у всех операторов категории (домены) смотри в [`/domains/ru/category-ru`](https://github.com/kirilllavrov/RU-domain-list-for-whitelist/blob/main/domains/ru/category-ru)
+
+Проверенные IP-адреса в БС смотри в [`/IPсhecked`](https://github.com/kirilllavrov/RU-domain-list-for-whitelist/blob/main/IPсhecked)
 
 ## Самостоятельная сборка файлов `geosite.dat` и `geoip.dat` для маршрутизации
 
