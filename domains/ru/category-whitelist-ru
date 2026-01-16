@@ -46,7 +46,7 @@ include:t2
 include:targetads
 include:tbank
 include:timeweb
-include:tns
+include:tnscounter
 include:tnt
 include:vgtrk
 include:vk
