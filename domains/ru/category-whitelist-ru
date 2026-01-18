@@ -17,6 +17,7 @@ include:envybox
 include:fastvps
 include:gov
 include:gpmdi
+include:habr
 include:hh
 include:jivo
 include:kaspersky
