@@ -4,6 +4,7 @@ government.ru
 gov.ru
 mchs.gov.ru
 xn--b1aew.xn--p1ai
+xn----7sb7akeedqd.xn--p1ai
 
 # President
 kremlin.ru
@@ -14,24 +15,24 @@ gu-st.ru
 
 # Federal Healthcare Services
 emias.info
-mgfoms.ru
+# mgfoms.ru
 
 # Federal Educational Services
-edu.ru
+# edu.ru
 
 # Other Federal Resources
 cbr.ru          # Central Bank of Russia
 nalog.ru        # Federal Tax Service
 
 # Izbirkom
-cikrf.ru
-izbirkom.ru
+# cikrf.ru
+# izbirkom.ru
 
 # Federal Cities (Cities of Federal Importance)
 mos.ru          # Moscow
 mosreg.ru       # Moscow Region
-spb.ru          # St. Petersburg
-sevastopol.ru   # Sevastopol
+# spb.ru          # St. Petersburg
+# sevastopol.ru   # Sevastopol
 sev.ru          # Sevastopol
 
 # Cities
