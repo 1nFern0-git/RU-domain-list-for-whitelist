@@ -1,8 +1,8 @@
+include:1cfresh
 include:1cloud
 include:1tv
 include:2gis
 include:alfabank
-include:amediateka
 include:autoru
 include:avito
 include:beeline
@@ -13,6 +13,7 @@ include:dellin
 include:drweb
 include:dzen
 include:edgecdn
+include:envybox
 include:fastvps
 include:gov
 include:gpmdi
@@ -35,7 +36,6 @@ include:ozon
 include:playfamily
 include:rambler
 include:rbc
-include:rossety
 include:rt
 include:rutube
 include:ruvds
@@ -56,3 +56,4 @@ include:wb
 include:wink
 include:x5
 include:yandex
+include:zentotem
