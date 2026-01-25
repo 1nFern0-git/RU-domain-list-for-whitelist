@@ -214,7 +214,7 @@ def create_geoip_entry(category_name, cidrs):
     return entry
 
 
-def build_geosite_dat(extracted_path, whitelist_domains_path, output_path):
+def build_geosite_dat(extracted_path, whitelist_domains_path, whitelist_ads_path, output_path):
     """Build final geosite.dat combining extracted categories and whitelist"""
     print("\n=== Building geosite.dat ===")
     
@@ -243,6 +243,17 @@ def build_geosite_dat(extracted_path, whitelist_domains_path, output_path):
         geosite_list.entry.append(whitelist_entry)
     else:
         print("  ⚠ No whitelist domains found")
+    
+    # Load whitelist-ads domains
+    print(f"\nLoading whitelist-ads domains from {whitelist_ads_path}...")
+    whitelist_ads_domains = load_domains_from_directory(whitelist_ads_path)
+    
+    if whitelist_ads_domains:
+        print(f"  ✓ Loaded {len(whitelist_ads_domains)} whitelist-ads domains")
+        whitelist_ads_entry = create_geosite_entry('whitelist-ads', whitelist_ads_domains)
+        geosite_list.entry.append(whitelist_ads_entry)
+    else:
+        print("  ⚠ No whitelist-ads domains found")
     
     # Save final geosite.dat
     with open(output_path, 'wb') as f:
@@ -298,6 +309,8 @@ def main():
                         help='Path to extracted geoip data')
     parser.add_argument('--whitelist-domains', default='domains/ru/category-ru',
                         help='Path to whitelist domains directory/file')
+    parser.add_argument('--whitelist-ads', default='domains/ads',
+                        help='Path to whitelist-ads domains directory')
     parser.add_argument('--whitelist-ips', default='IPs',
                         help='Path to whitelist IPs directory')
     parser.add_argument('--output-dir', default='output',
@@ -313,6 +326,7 @@ def main():
     build_geosite_dat(
         args.extracted_geosite,
         args.whitelist_domains,
+        args.whitelist_ads,
         output_dir / 'geosite.dat'
     )
     
