@@ -76,8 +76,13 @@ def parse_geosite_dat(dat_file, categories):
     # Print all available categories for debugging
     print(f"\n  Available categories in file: {sorted(found_categories)}")
     
-    # Warn about missing categories
-    missing = set(categories) - found_categories
+    # Warn about missing categories (case-insensitive check)
+    found_lower = {cat.lower() for cat in found_categories}
+    missing = set()
+    for cat in categories:
+        if cat.lower() not in found_lower:
+            missing.add(cat)
+    
     if missing:
         print(f"  ⚠ Warning: Categories not found: {missing}")
     
@@ -113,8 +118,13 @@ def parse_geoip_dat(dat_file, categories):
     # Print all available categories for debugging
     print(f"\n  Available categories in file: {sorted(found_categories)}")
     
-    # Warn about missing categories
-    missing = set(categories) - found_categories
+    # Warn about missing categories (case-insensitive check)
+    found_lower = {cat.lower() for cat in found_categories}
+    missing = set()
+    for cat in categories:
+        if cat.lower() not in found_lower:
+            missing.add(cat)
+    
     if missing:
         print(f"  ⚠ Warning: Categories not found: {missing}")
     
