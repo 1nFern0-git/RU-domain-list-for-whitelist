@@ -1,0 +1,21 @@
+# Configuration file for .dat files builder
+# Configures which categories to extract from source repositories
+
+# Categories to extract from runetfreedom/russia-v2ray-rules-dat geosite.dat
+geosite_categories:
+  - category-ru
+  - ru-blocked
+  - ru-available-only-inside
+  - category-ads-all
+
+# Categories to extract from runetfreedom/russia-v2ray-rules-dat geoip.dat
+geoip_categories:
+  - ru
+  - ru-blocked
+  - private
+
+# Source repository for base .dat files
+source_repo: runetfreedom/russia-v2ray-rules-dat
+
+# Whitelist repository (current repository)
+whitelist_repo: kirilllavrov/RU-domain-list-for-whitelist

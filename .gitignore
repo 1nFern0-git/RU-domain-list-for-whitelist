@@ -11,3 +11,9 @@ wheels/
 .DS_Store
 .env
 .vscode/
+
+# Build artifacts
+output/
+*.dat
+scripts/*.dat
+/tmp/
