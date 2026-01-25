@@ -239,7 +239,7 @@ def build_geosite_dat(extracted_path, whitelist_domains_path, whitelist_ads_path
     
     if whitelist_domains:
         print(f"  ✓ Loaded {len(whitelist_domains)} whitelist domains")
-        whitelist_entry = create_geosite_entry('whitelist', whitelist_domains)
+        whitelist_entry = create_geosite_entry('WHITELIST', whitelist_domains)
         geosite_list.entry.append(whitelist_entry)
     else:
         print("  ⚠ No whitelist domains found")
@@ -250,7 +250,7 @@ def build_geosite_dat(extracted_path, whitelist_domains_path, whitelist_ads_path
     
     if whitelist_ads_domains:
         print(f"  ✓ Loaded {len(whitelist_ads_domains)} whitelist-ads domains")
-        whitelist_ads_entry = create_geosite_entry('whitelist-ads', whitelist_ads_domains)
+        whitelist_ads_entry = create_geosite_entry('WHITELIST-ADS', whitelist_ads_domains)
         geosite_list.entry.append(whitelist_ads_entry)
     else:
         print("  ⚠ No whitelist-ads domains found")
@@ -288,7 +288,7 @@ def build_geoip_dat(extracted_path, whitelist_ips_path, output_path):
     
     if whitelist_cidrs:
         print(f"  ✓ Loaded {len(whitelist_cidrs)} whitelist CIDR blocks")
-        whitelist_entry = create_geoip_entry('whitelist', whitelist_cidrs)
+        whitelist_entry = create_geoip_entry('WHITELIST', whitelist_cidrs)
         geoip_list.entry.append(whitelist_entry)
     else:
         print("  ⚠ No whitelist IPs found")
