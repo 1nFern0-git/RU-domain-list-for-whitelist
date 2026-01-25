@@ -50,6 +50,7 @@ jobs:
             --extracted-geosite ../output/extracted_geosite.dat \
             --extracted-geoip ../output/extracted_geoip.dat \
             --whitelist-domains ../domains/ru/category-ru \
+            --whitelist-ads ../domains/ads \
             --whitelist-ips ../IPs \
             --output-dir ../output
       
@@ -106,6 +107,7 @@ jobs:
             - `ru-available-only-inside` - Domains available only inside Russia
             - `category-ads-all` - All ads domains
             - `whitelist` - Verified whitelist domains from this repository
+            - `whitelist-ads` - Ads domains from this repository
             
             ### geoip.dat
             - `ru` - Russian IP ranges

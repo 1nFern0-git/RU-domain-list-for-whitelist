@@ -33,7 +33,8 @@
 - **ru-blocked**: Заблокированные в России домены
 - **ru-available-only-inside**: Домены, доступные только внутри России
 - **category-ads-all**: Все рекламные домены (AdguardFilterDNS, PeterLoweFilter и другие)
-- **whitelist**: Проверенные whitelist домены из текущего репозитория
+- **whitelist**: Проверенные whitelist домены из текущего репозитория (domains/ru/)
+- **whitelist-ads**: Рекламные домены из текущего репозитория (domains/ads/)
 
 **В `geoip.dat`:**
 
@@ -146,6 +147,7 @@ python scripts/build_dat.py \
   --extracted-geosite output/extracted_geosite.dat \
   --extracted-geoip output/extracted_geoip.dat \
   --whitelist-domains domains/ru/category-ru \
+  --whitelist-ads domains/ads \
   --whitelist-ips IPs \
   --output-dir output
 ```
