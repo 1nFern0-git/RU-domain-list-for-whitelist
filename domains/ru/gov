@@ -6,7 +6,7 @@ mchs.gov.ru
 xn--b1aew.xn--p1ai
 xn----7sb7akeedqd.xn--p1ai
 
-# President
+# President of Russian Federation
 kremlin.ru
 
 # Federal Public Services
@@ -33,10 +33,23 @@ mos.ru          # Moscow
 mosreg.ru       # Moscow Region
 # spb.ru          # St. Petersburg
 # sevastopol.ru   # Sevastopol
-sev.ru          # Sevastopol
 
-# Cities
+# Subjects of the Russian Federation
+kchr.ru
+tatarstan.ru
+
+# Administrative resources of cities of the Russian Federation
 krd.ru          # Krasnodar
+# i-ola.ru
+# vlc.ru          # Vladivostok
+# xn--80acgfbsl1azdqr.xn--p1ai
+kemerovo.ru
+kursk.ru
+xn--80aacoonefzg3am8b1fsb.xn--p1ai
+pskov.ru
 
-# Paty
+# Political parties of the Russian Federation
 er.ru
+kprf.ru
+# ldpr.ru
+# newpeople.ru
