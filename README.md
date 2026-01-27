@@ -23,8 +23,6 @@
 - **geosite.dat**: [Скачать последнюю версию](https://github.com/1nFern0-git/RU-domain-list-for-whitelist/releases/latest/download/geosite.dat)
 - **geoip.dat**: [Скачать последнюю версию](https://github.com/1nFern0-git/RU-domain-list-for-whitelist/releases/latest/download/geoip.dat)
 
-Все релизы доступны на странице [Releases](https://github.com/1nFern0-git/RU-domain-list-for-whitelist/releases).
-
 ### Включенные категории
 
 **В `geosite.dat`:**
